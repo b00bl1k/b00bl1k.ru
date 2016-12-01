@@ -4,7 +4,9 @@ email: 6006l1k@gmail.com
 description: ""
 baseurl: ""
 twitter_username: 6006l1k
-github_username:  b00bl1k
+github_username: b00bl1k
+disqus:
+    shortname: b00bl1k
 
 # Build settings
 markdown: kramdown
