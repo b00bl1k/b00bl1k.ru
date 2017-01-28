@@ -11,20 +11,20 @@ tags: [telegram, bot, python, gifdotbot]
 GIF или видео-файлов.
 
 Что было использовано:
-* python2 -- собственно основной инструмент
-* [python-telegram-bot](https://github.com/python-telegram-bot/python-telegram-bot) -- на
-  мой взгляд один из самых продуманных wrapper'ов над Telegram Bot API.
-* [peewee](https://github.com/coleifer/peewee) -- простая и удобная ORM
-* [pystemmer](https://github.com/snowballstem/pystemmer) -- библиотека для
-  стемминга русских и английских слов
-* [envparse](https://github.com/rconradharris/envparse) -- для настройки
+  * python2 -- собственно основной инструмент
+  * [python-telegram-bot](https://github.com/python-telegram-bot/python-telegram-bot) -- на
+    мой взгляд один из самых продуманных wrapper'ов над Telegram Bot API.
+  * [peewee](https://github.com/coleifer/peewee) -- простая и удобная ORM
+  * [pystemmer](https://github.com/snowballstem/pystemmer) -- библиотека для
+    стемминга русских и английских слов
+  * [envparse](https://github.com/rconradharris/envparse) -- для настройки
 
 Описание работы:
-1. При отправке файла, он загружается на сервер телеграмма и бот получает только
-file_id и описание для хранения в своей базе. Если пользователь не указал
-описание, то его разрешается отредактировать. Повторное редактирование не
-допустимо (пока).
-2. Теперь любой пользователь может вызвать бота инлайн и указать поисковый
-запрос, все так же просто как в @gif.
+  1. При отправке файла, он загружается на сервер телеграмма и бот получает
+    только file_id и описание для хранения в своей базе. Если пользователь не
+    указал описание, то его разрешается отредактировать. Повторное
+    редактирование недопустимо (пока).
+  2. Теперь любой пользователь может вызвать бота инлайн и указать поисковый
+    запрос, все так же просто как в @gif.
 
 Заценить можно по ссылке [@gifdotbot](https://t.me/gifdotbot).
