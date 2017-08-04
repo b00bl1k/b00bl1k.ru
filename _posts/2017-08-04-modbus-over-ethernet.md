@@ -2,6 +2,8 @@
 layout: post
 title: Modbus через Ethernet
 tags: [modbus, serial, ethernet]
+image: regular-show.png
+description: Поделюсь наболевшим по поводу опроса устройств с протоколом Modbus через преобразователи Serial-to-Ethernet
 ---
 
 Поделюсь наболевшим по поводу опроса устройств с протоколом Modbus через
