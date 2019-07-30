@@ -1,12 +1,16 @@
-title: b00bl1k
+title: b00bl1k's blog
 author: b00bl1k
 email: 6006l1k@gmail.com
 description: "My personal blog"
-baseurl: ""
+lang: ru_RU
 twitter_username: 6006l1k
 github_username: b00bl1k
 google_analytics: UA-42973733-4
+show_excerpts: true
 
-# Build settings
+twitter:
+  username: 6006l1k
+  card: summary
+
 markdown: kramdown
 theme: minima
