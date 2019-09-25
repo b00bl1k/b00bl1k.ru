@@ -25,4 +25,4 @@ title: Архивные записи д. Афанасово
 
 Записи о рождении:
 
-{% include rec_birth.html records=site.data.gaio_1164_2_2_birth %}
+{% include rec_birth.html records=site.data.gaio_1164_2_1_birth %}
