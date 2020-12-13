@@ -12,5 +12,9 @@ twitter:
   username: 6006l1k
   card: summary
 
+mastodon:
+- username: b00bl1k
+  instance: lor.sh
+
 markdown: kramdown
 theme: minima
