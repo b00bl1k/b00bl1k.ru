@@ -1,13 +1,11 @@
----
-layout: post
-title: Год работы датчика температуры LoRaWAN
----
+Title: Год работы датчика температуры LoRaWAN
+Date: 2022-05-27
 
-С момента установки [датчика]({% post_url 2020-09-30-Lora-node-151 %}) прошло
+С момента установки [датчика]({filename}/Lora-node-151.md) прошло
 полтора года, но поскольку в работе прибора были перерывы, то я решил написать
 пост с результатами только после года непрерывной работы и вот время пришло.
 
-[![График разряда](/assets/20220527-tekcell-discharge.png)](/assets/20220527-tekcell-discharge.png)
+[![График разряда]({static}/assets/20220527-tekcell-discharge.png)]({static}/assets/20220527-tekcell-discharge.png)
 
 Примерно через 4 месяца после первой установки датчика, разрядилась батарея,
 в морозное утро января. Источником питания служила относительно новая
@@ -25,8 +23,8 @@ title: Год работы датчика температуры LoRaWAN
 после чего прибор снова был установлен на улице. В таком состоянии он
 проработал год. Предлагаю взглянуть на графики:
 
-[![](/assets/20220527-calendar-heatmap.png)](/assets/20220527-calendar-heatmap.png)
+[![heatmap]({static}/assets/20220527-calendar-heatmap.png)]({static}/assets/20220527-calendar-heatmap.png)
 
-[![](/assets/20220527-saft-discharge.png)](/assets/20220527-saft-discharge.png)
+[![discharge diagram]({static}/assets/20220527-saft-discharge.png)]({static}/assets/20220527-saft-discharge.png)
 
-[![](/assets/20220527-signal-strength.png)](/assets/20220527-signal-strength.png)
+[![signal strength diagram]({static}/assets/20220527-signal-strength.png)]({static}/assets/20220527-signal-strength.png)

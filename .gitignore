@@ -1,8 +1,4 @@
-.bundle/
-.jekyll-metadata/
-.jekyll-cache/
-.sass-cache/
-
-_site/
-
-vendor/
+*.pyc
+.idea
+.venv
+output

@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="{{ DEFAULT_LANG }}">
+<head>
+    {% block head %}
+    <meta charset="utf-8" />
+    <meta name="generator" content="pelican" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{% block title %}{{ SITENAME }}{% endblock %}</title>
+    <meta name="description" content="{{ AUTHOR_DESCRIPTION }}">
+    <meta name="author" content="{{ AUTHOR }}">
+    <link rel="shortcut icon" href="{{ FAVICON }}">
+    {% if FEED_ALL_ATOM %}
+    <link href="{{ SITEURL }}/{{ FEED_ALL_ATOM }}" type="application/atom+xml" rel="alternate" title="{{ SITENAME }} ATOM Feed" />
+    {% endif %}
+    {% if FEED_ALL_RSS %}
+    <link href="{{ SITEURL }}/{{ FEED_RSS }}" type="application/atom+xml" rel="alternate" title="{{ SITENAME }} RSS Feed" />
+    {% endif %}
+    <link rel="shortcut icon" href="{{ SITEURL }}/assets/favicon.ico" type="image/x-icon">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ SITEURL }}/assets/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="{{ SITEURL }}/assets/favicon-16x16.png">
+    {% assets filters="libsass,cssmin", output="static/css/main.min.css", "main.scss" %}
+    <link rel="stylesheet" href="{{ SITEURL }}/{{ASSET_URL}}" type="text/css" />
+    {% endassets %}
+    {% endblock %}
+</head>
+<body>
+{% block content %}{% endblock content %}
+<footer>
+    The content for this site is
+    <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>.
+    {% if SOURCE_CODE_URL %}
+    The <a href="{{ SOURCE_CODE_URL }}">code for this site</a>
+    is <a href="https://opensource.org/licenses/MIT">MIT</a>.
+    {% endif %}
+</footer>
+</body>
+</html>

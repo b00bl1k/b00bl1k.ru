@@ -1,0 +1,39 @@
+{% extends "base.html" %}
+
+{% block content %}
+<main class="index">
+    <section class="article-list">
+        <h1>{{ SITENAME }}</h1>
+        {% for article in (articles_page.object_list if articles_page else articles) %}
+        <div class="article">
+            <span class="date">{{ article.locale_date }}</span>
+            <a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a>
+        </div>
+        {% endfor %}
+    </section>
+    <aside>
+        <img src="{{ SITEURL }}/assets/avatar.jpg"
+             alt="I took this photo of my foots on the bus stop in Moscow :)"
+             width="148" height="148" />
+        <div class="text-center">
+        {% for title, link in LINKS %}
+            {% if not loop.first %} · {% endif %}
+            <a href="{{ link }}">{{ title }}</a>
+        {% endfor %}
+        </div>
+        {% if SOCIAL %}
+        <dl class="external-links">
+            {% for name, title, link in SOCIAL %}
+            <dt>{{ name }}</dt>
+            <dd><a href="{{ link }}"{% if name == "fediverse" %} rel="me"{% endif %}>{{ title }}</a></dd>
+            {% endfor %}
+        </dl>
+        {% endif %}
+        {% if DESCRIPTION %}
+        <small>
+            {{ DESCRIPTION}}
+        </small>
+        {% endif %}
+    </aside>
+</main>
+{% endblock content %}
