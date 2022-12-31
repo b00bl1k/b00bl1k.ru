@@ -14,9 +14,6 @@ AUTHOR_SAVE_AS = ""
 CATEGORY_SAVE_AS = ""
 DIRECT_TEMPLATES = ["index"]
 STATIC_PATHS = ["assets"]
-LINKS = (
-    ("rss", f"{SITEURL}/{FEED_ALL_ATOM}"),
-)
 SOCIAL = (
     ("email", "6006l1k@gmail.com", "mailto:6006l1k@gmail.com"),
     ("github", "b00bl1k", "https://github.com/b00bl1k"),

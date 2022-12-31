@@ -16,10 +16,11 @@
              alt="I took this photo of my foots on the bus stop in Moscow :)"
              width="148" height="148" />
         <div class="text-center">
-        {% for title, link in LINKS %}
+        {% for p in pages %}
             {% if not loop.first %} · {% endif %}
-            <a href="{{ link }}">{{ title }}</a>
+            <a href="{{ SITEURL }}/{{ p.url }}">{{ p.title|lower }}</a>
         {% endfor %}
+        · <a href="{{ SITEURL }}/{{ FEED_ALL_ATOM }}">rss</a>
         </div>
         {% if SOCIAL %}
         <dl class="external-links">
