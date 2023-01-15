@@ -22,7 +22,7 @@ SOCIAL = (
 PLUGINS = ["webassets"]
 DEFAULT_PAGINATION = None
 RELATIVE_URLS = False
-SOURCE_CODE_URL = "https://git.sr.ht/~b00bl1k/b00bl1k.ru"
+SOURCE_CODE_URL = "https://github.com/b00bl1k/b00bl1k.ru"
 PATH_METADATA = '(?P<path_no_ext>.*)\..*'
 ARTICLE_URL = ARTICLE_SAVE_AS = "{date:%Y}/{date:%m}/{date:%d}/{path_no_ext}.html"
 DESCRIPTION = ""
