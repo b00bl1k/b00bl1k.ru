@@ -15,7 +15,7 @@ CATEGORY_SAVE_AS = ""
 DIRECT_TEMPLATES = ["index"]
 STATIC_PATHS = ["assets"]
 SOCIAL = (
-    ("email", "6006l1k@gmail.com", "mailto:6006l1k@gmail.com"),
+    ("email", "alex@b00bl1k.ru", "mailto:alex@b00bl1k.ru"),
     ("github", "b00bl1k", "https://github.com/b00bl1k"),
     ("fediverse", "@b00bl1k@lor.sh", "https://lor.sh/@b00bl1k"),
 )
