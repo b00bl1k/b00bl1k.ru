@@ -21,6 +21,7 @@ jobs:
         run: |
           make publish
   deploy:
+    environment: b00bl1k
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v3
