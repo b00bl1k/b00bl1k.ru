@@ -2,18 +2,18 @@ title: Projects
 
 ## uwan
 
-*uwan* &mdash; библиотека, реализующая связь LoRaWAN. Старался максимально 
-упроситить процесс интеграции с железом. Гибкая настройка под региональные 
-параметры. Пока поддерживается только трансивер SX1276.
+*uwan* &mdash; библиотека, реализующая связь LoRaWAN. Старался максимально
+упроситить процесс интеграции с железом. Гибкая настройка под региональные
+параметры.
 
 Исходный код: [https://github.com/b00bl1k/uwan](https://github.com/b00bl1k/uwan)
 
 ## avtonomerbot
 
-*avtonomerbot* &mdash; телеграм бот для увлечённых таким хобби, как 
+*avtonomerbot* &mdash; телеграм бот для увлечённых таким хобби, как
 [car spotting](https://en.wikipedia.org/wiki/Car_spotting).
 
-Исходный код: 
+Исходный код:
 [https://github.com/b00bl1k/avtonomerbot](https://github.com/b00bl1k/avtonomerbot)
 
 ## sptk
