@@ -8,6 +8,8 @@ title: Projects
 
 Исходный код: [https://github.com/b00bl1k/uwan](https://github.com/b00bl1k/uwan)
 
+Документация: [https://b00bl1k.ru/uwan](https://b00bl1k.ru/uwan)
+
 ## avtonomerbot
 
 *avtonomerbot* &mdash; телеграм бот для увлечённых таким хобби, как
