@@ -67,6 +67,6 @@ publish:
 	"$(PELICAN)" "$(INPUTDIR)" -o "$(OUTPUTDIR)" -s "$(PUBLISHCONF)" $(PELICANOPTS)
 
 deploy:
-	rsync -a -v --delete "$(OUTPUTDIR)/" alex@b00bl1k:/home/alex/srv1/b00bl1k/root/
+	rsync -a -v "$(OUTPUTDIR)/" alex@b00bl1k:/home/alex/srv1/b00bl1k/root/
 
 .PHONY: html help clean regenerate serve serve-global devserver publish
