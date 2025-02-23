@@ -19,10 +19,19 @@ SOCIAL = (
     ("github", "b00bl1k", "https://github.com/b00bl1k"),
     ("fediverse", "@b00bl1k@lor.sh", "https://lor.sh/@b00bl1k"),
 )
-PLUGINS = ["webassets"]
+PLUGINS = ["webassets", "photos"]
 DEFAULT_PAGINATION = None
 RELATIVE_URLS = False
 SOURCE_CODE_URL = "https://github.com/b00bl1k/b00bl1k.ru"
 PATH_METADATA = '(?P<path_no_ext>.*)\..*'
 ARTICLE_URL = ARTICLE_SAVE_AS = "{date:%Y}/{date:%m}/{date:%d}/{path_no_ext}.html"
 DESCRIPTION = ""
+
+PHOTO_LIBRARY = "content/galleries"
+PHOTO_GALLERY = (1920, 1080, 85)
+PHOTO_THUMB = (192, 144, 60)
+PHOTO_SQUARE_THUMB = True
+PHOTO_WATERMARK = True
+PHOTO_WATERMARK_TEXT = "b00bl1k.ru"
+PHOTO_INLINE_ENABLED = True
+PHOTO_INLINE_GALLERY_ENABLED = True

@@ -2,5 +2,6 @@ cssmin==0.2.0
 libsass==0.22.0
 Markdown==3.4.1
 pelican==4.10.1
+pelican-photos==1.6.2
 pelican-webassets==2.1.0
 webassets==2.0

@@ -24,6 +24,27 @@
     {% endblock %}
 </head>
 <body>
+<header>
+    <div class="logo">
+        <h1><a href="{{ SITEURL }}">{{ SITENAME }}</a></h1>
+    </div>
+    <div class="burger">
+        <input type="checkbox" id="toggle">
+        <label for="toggle" class="icon">
+            <span style="background-color: #000;"></span>
+            <span style="background-color: #000;"></span>
+        </label>
+    </div>
+    <div class="menu">
+        <nav>
+            <ul>
+                {% for p in pages %}
+                <li><a href="{{ SITEURL }}/{{ p.url }}">{{ p.title|lower }}</a></li>
+                {% endfor %}
+            </ul>
+        </nav>
+    </div>
+</header>
 {% block content %}{% endblock content %}
 <footer>
     The content for this site is

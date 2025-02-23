@@ -3,12 +3,18 @@
 {% block content %}
     <main>
         <article>
-        <h1>{{ page.title }}
-            <small>
-                <span class="site"><a href="{{ SITEURL }}">{{ SITENAME }}</a></span>
-            </small>
-        </h1>
+        <h2>{{ page.title }}</h2>
         {{ page.content }}
+        {% if page.photo_gallery %}
+            <div>
+                {% import "photos_macros.html" as photos_macros %}
+                <div>
+                    {% for title, gallery in page.photo_gallery %}
+                        {{ photos_macros.gallery(title, gallery, '---') }}
+                    {% endfor %}
+                </div>
+            </div>
+        {% endif %}
         </article>
     </main>
 {% endblock %}
