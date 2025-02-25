@@ -1,5 +1,6 @@
 {% macro gallery(title, gallery, default_caption) -%}
     {% if title | trim %}<h2>{{ title }}</h2>{% endif %}
+    <p><a href="{{ SITEURL }}/pages/photos.html">&larr; Back to photos</a></p>
     <div class="gallery">
         {% for name, photo, thumb, exif, caption in gallery %}
             <div class="photo">
