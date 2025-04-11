@@ -17,7 +17,7 @@ STATIC_PATHS = ["assets"]
 SOCIAL = (
     ("email", "alex@b00bl1k.ru", "mailto:alex@b00bl1k.ru"),
     ("github", "b00bl1k", "https://github.com/b00bl1k"),
-    ("fediverse", "@b00bl1k@lor.sh", "https://lor.sh/@b00bl1k"),
+    ("fediverse", "@alex@snac.b00bl1k.ru", "https://snac.b00bl1k.ru/alex"),
 )
 PLUGINS = ["webassets", "photos"]
 DEFAULT_PAGINATION = None
