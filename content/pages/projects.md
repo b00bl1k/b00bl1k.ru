@@ -6,17 +6,16 @@ title: Projects
 упроситить процесс интеграции с железом. Гибкая настройка под региональные
 параметры.
 
-Исходный код: [https://github.com/b00bl1k/uwan](https://github.com/b00bl1k/uwan)
+Исходный код: <https://github.com/b00bl1k/uwan>
 
-Документация: [https://b00bl1k.ru/uwan](https://b00bl1k.ru/uwan)
+Документация: <https://b00bl1k.ru/uwan>
 
 ## avtonomerbot
 
 *avtonomerbot* &mdash; телеграм бот для увлечённых таким хобби, как
 [car spotting](https://en.wikipedia.org/wiki/Car_spotting).
 
-Исходный код:
-[https://github.com/b00bl1k/avtonomerbot](https://github.com/b00bl1k/avtonomerbot)
+Исходный код: <https://github.com/b00bl1k/avtonomerbot>
 
 ## sptk
 
@@ -24,4 +23,14 @@ title: Projects
 порт. Создана как кроссплатформенная opensource альтернатива COM Port Toolkit.
 Пока ещё на ранней стадии разработки.
 
-Исходный код: [https://github.com/b00bl1k/sptk](https://github.com/b00bl1k/sptk)
+Исходный код: <https://github.com/b00bl1k/sptk>
+
+## tashwiki
+
+*tashwiki* &mdash; генератор статических сайтов, основная особенность которого
+поддержка wikilinks с преобразованием ссылок `[[Test 123]]` в пути к файлам
+вида `Test_123.md`.
+
+Исходный код: <https://codeberg.org/b00bl1k/tashwiki>
+
+Документация: <https://b00bl1k.ru/tashwiki/>
